@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import ApiFetch from "./apiFetch";
+import ApiFetch from "./ApiFetch";
 import Landing from "./Landing";
 function App() {
   return (
