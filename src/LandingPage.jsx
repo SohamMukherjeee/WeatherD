@@ -6,14 +6,14 @@ function LandingPage() {
   const navigate = useNavigate();
   return (
     <>
-      <div className="flex flex-col items-center justify-center h-full">
+      <div className="flex flex-col items-center justify-center h-full mb-10">
         <div className="bg-gradient-to-t from-white via-blue-200 to-blue-400 w-full overflow-hidden">
           <div className="flex flex-col items-center justify-center pt-20">
             <h1
-              className="text-4xl font-bold text-gray-800 text-center "
+              className="text-5xl font-bold text-gray-800 text-center "
               style={{ fontFamily: "Marcellus, sans-serif" }}
             >
-              Know Your city Better with{" "}
+              Know Your city Better with
               <img
                 src={img2}
                 alt=""
@@ -27,10 +27,9 @@ function LandingPage() {
                 Clime
               </span>
             </h1>
-            <p className="text-md pt-10 text-center">
-              Get real time temperature, humidity, wind speed and forecast{" "}
-              <br />
-              backed by interactive maps and powerful visuals.
+            <p className="text-sm sm:text-lg pt-10 text-center">
+              Get real time temperature, humidity, wind speed and forecast
+              backed by <br /> interactive maps and powerful visuals.
             </p>
             <button
               className="btn  bg-white text-black rounded-2xl mt-10 shadow-white hover:shadow-lg px-6 py-3 text-md font-semibold transition-all duration-300"
