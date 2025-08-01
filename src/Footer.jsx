@@ -1,14 +1,16 @@
 import { VscArrowSmallRight } from "react-icons/vsc";
 import { useNavigate } from "react-router-dom";
-
 function Footer() {
   const navigate = useNavigate();
 
   return (
     <>
       <div className="h-screen w-full  flex justify-center items-center flex-col bg-gradient-to-b from-white via-blue-100 to-blue-200 mt-10">
-        <div className="h-[30vh] flex justify-center items-center">
-          <h1 className=" text-gray-600 text-center">
+        <div className="h-[30vh] flex justify-center items-center flex-col">
+          <h1
+            className=" text-gray-600 text-center text-3xl"
+            style={{ fontFamily: "Shadows Into Light, cursive" }}
+          >
             Plan Smarter with Clime
           </h1>
         </div>

@@ -48,10 +48,8 @@ export default function Features() {
           backgroundPosition: "center center",
         }}
       >
-        {/* Optional gradient overlay for readability */}
         <div className="absolute inset-0 bg-gradient-to-b from-white/70 via-white/50 to-white/30 sm:from-white/30 pointer-events-none z-0"></div>
 
-        {/* Content wrapper with z-index to stay above gradient */}
         <div className="relative z-10 w-full">
           <h1
             className="font-bold text-4xl sm:text-5xl text-gray-800 text-center pt-8"
@@ -71,7 +69,7 @@ export default function Features() {
             {features.map((feature, idx) => (
               <div
                 key={idx}
-                className="w-[90%] sm:w-72 bg-white/60 border border-gray-200 rounded-xl shadow p-5 space-y-2 backdrop-blur-sm"
+                className="w-[90%] sm:w-72 bg-white/60 border border-gray-200 rounded-xl shadow p-5 space-y-2 backdrop-blur-sm hover:cursor-pointer  hover:shadow-lg hover:shadow-gray/60 transition-shadow duration-300"
               >
                 <div className="bg-[#F2F4F7] h-12 w-12 rounded-xl border border-gray-300 text-[#5d6067] p-2 text-2xl flex items-center justify-center shadow">
                   {feature.icon}

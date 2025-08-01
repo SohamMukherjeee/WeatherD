@@ -10,10 +10,11 @@ function LandingPage() {
         <div className="bg-gradient-to-t from-white via-blue-200 to-blue-400 w-full overflow-hidden">
           <div className="flex flex-col items-center justify-center pt-20">
             <h1
-              className="text-5xl font-bold text-gray-800 text-center "
+              className="text-5xl font-bold text-gray-800 text-center py-4"
               style={{ fontFamily: "Marcellus, sans-serif" }}
             >
               Know Your city Better with
+              <br />
               <img
                 src={img2}
                 alt=""
@@ -28,7 +29,7 @@ function LandingPage() {
               </span>
             </h1>
             <p className="text-sm sm:text-lg pt-10 text-center">
-              Get real time temperature, humidity, wind speed and forecast
+              Get real time temperature, humidity, wind speed brand forecast
               backed by <br /> interactive maps and powerful visuals.
             </p>
             <button
