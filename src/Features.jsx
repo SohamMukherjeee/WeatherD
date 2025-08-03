@@ -69,7 +69,7 @@ export default function Features() {
             {features.map((feature, idx) => (
               <div
                 key={idx}
-                className="w-[90%] sm:w-72 bg-white/60 border border-gray-200 rounded-xl shadow p-5 space-y-2 backdrop-blur-sm hover:cursor-pointer  hover:shadow-lg hover:shadow-gray/60 transition-shadow duration-300"
+                className="w-[90%] sm:w-72 bg-white/40 border border-gray-200 rounded-xl shadow p-5 space-y-2 backdrop-blur-sm hover:cursor-pointer  hover:shadow-lg hover:shadow-gray/60 transition-shadow duration-300"
               >
                 <div className="bg-[#F2F4F7] h-12 w-12 rounded-xl border border-gray-300 text-[#5d6067] p-2 text-2xl flex items-center justify-center shadow">
                   {feature.icon}

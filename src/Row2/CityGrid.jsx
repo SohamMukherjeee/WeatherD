@@ -25,7 +25,7 @@ export default function CityGrid({ setCity, currentCity }) {
   };
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-2 gap-x-10 gap-4">
+    <div className="grid grid-cols-2 sm:grid-cols-2 gap-x-7 gap-4">
       {cities.map((city) => {
         const isActive = currentCity === city.name;
 

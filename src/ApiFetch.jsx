@@ -98,7 +98,7 @@ function ApiFetch() {
         </div>
 
         {/* Right Panel – Suggested Cities */}
-        <div className="w-full sm:w-1/4 flex flex-col justify-center pr-10">
+        <div className="w-full sm:w-1/4 flex flex-col justify-center items-center sm:pr-10">
           {weather && <CityGrid setCity={setCity} currentCity={city} />}
           {weather && <CardWeather city={weather.name} />}
         </div>
